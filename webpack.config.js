@@ -25,8 +25,25 @@ module.exports = function (env) {
                         publicPath:'/dist'
                     })
                 },
+                {
+                    test:/\.(woff|svg|eot|ttf)(\?.*)?$/,
+                    loader:'url-loader?limit=50000'
+                },
+                {
+                    test:/\.(png|jpg|gif)$/,
+                    loader:'url-loader?limit=819200'
+                }
 
             ]
-        }
+        },
+        plugins:[
+            new ExtractTextWebpackPlugin({
+                filename:"bundle.css"
+            }),
+            new htmlWebpackPlugin({
+                filename:"index.html",
+                template:path.resolve(__dirname,'src/index.html')
+            })
+        ]
     }
 }
