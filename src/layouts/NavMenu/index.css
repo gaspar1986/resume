@@ -19,7 +19,7 @@ a{
     color: #c0c0c0;
 }
 .aside-action{
-    width: 150px;
+    width: 100%;
     height: 42px;
     line-height: 42px;
     position: absolute;
@@ -35,7 +35,7 @@ a{
     line-height: 32px;
     margin:16px 24px;
     background: #404040;
-    transition: all .3s;
+    overflow: hidden;
 }
 .iconfont.logo{
     font-size:30px;
@@ -49,4 +49,10 @@ a{
     line-height: 32px;
     font-size:20px;
     margin-left:2px;
+}
+.layout-aside-collapse{
+    width: 64px;
+}
+.layout-logo-collapse{
+    margin:17px;
 }

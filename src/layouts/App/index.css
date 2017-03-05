@@ -6,6 +6,7 @@
     bottom:0;
     background: #f7f8fa;
     padding: 20px 40px 40px;
+    transition: all .3s;
 }
 .app{
     position: relative;
@@ -35,4 +36,8 @@
 .app-leave.app-leave-active {
     opacity: 0.01;
     transform: translate3d(0,0,0);
+}
+.main-collapse{
+    left:64px;
+
 }
