@@ -31,7 +31,7 @@ module.exports = function (env) {
                 },
                 {
                     test:/\.(png|jpg|gif)$/,
-                    loader:'url-loader?limit=819200'
+                    loader:'url-loader?limit=8192'
                 }
 
             ]

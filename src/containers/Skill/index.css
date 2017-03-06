@@ -1,0 +1,52 @@
+.skill{
+    font-size:1.3vw;
+}
+.skill-title{
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: .5em;
+    text-align: center;
+}
+.skill-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:2em 0;
+    flex:auto;
+}
+.skill .item{
+    width: 20em;
+    height: 6.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0 0 1em 1em;
+}
+.skill .item-icon{
+    width: 4em;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill .item-icon i{
+    font-size:3em;
+    color:dodgerblue;
+}
+.skill .item-info{
+    display:flex;
+    flex-direction: column;
+    margi-left:1em;
+}
+
+.skill .info-title{
+    font-size:1.2em;
+    line-height: 1em;
+    color:dodgerblue;
+}
+.skill .info-desc{
+    font-size:1.1em;
+    color:#666;
+
+}
